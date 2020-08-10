@@ -1,8 +1,6 @@
 # rust_webrcon Package
 
 ## Install
-`pip install rust_webrcon`<br>
-or<br>
 `pip install https://github.com/thegreatstorm/rust_webrcon/archive/master.zip`
 
 ## Docs
