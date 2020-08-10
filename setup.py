@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-version = "2.0.2"
+version = "2.0.3"
 
 current_directory = os.path.dirname(__file__)
 
@@ -23,6 +23,11 @@ setup(
     description='Tried of trying to find working rust web rcon for python look no further.',
     keywords='Rust web rcon interaction tool',
     include_package_data=True,
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     install_requires=[
         "websocket-client >= 0.54.0"
     ]
