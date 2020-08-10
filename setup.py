@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-version = "1.0.1"
+version = "2.0.0"
 
 current_directory = os.path.dirname(__file__)
 
@@ -13,7 +13,7 @@ except:
     pass
 
 setup(
-    name="rust_rcon_lib",
+    name="rust_webrcon",
     author='thegreatstorm',
     url='https://github.com/thegreatstorm/rust_rcon_lib',
     version="1.0.0.1",

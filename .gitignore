@@ -1,3 +1,4 @@
 rev.txt
 **/*.pyc
 **/.DS_Store
+**/.idea
