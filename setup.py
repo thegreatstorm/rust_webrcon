@@ -17,7 +17,7 @@ setup(
     author='thegreatstorm',
     url='https://github.com/thegreatstorm/rust_rcon_lib',
     version="1.0.0.1",
-    packages=["rust_rcon_lib", "rust_rcon_lib.utils"],
+    packages=["rust_webrcon"],
     python_requires='>=3.6',
     platforms=['Windows', 'Linux', 'OSX'],
     description='Tried of trying to find working rust web rcon for python look no further.',
