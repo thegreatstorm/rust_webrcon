@@ -1,7 +1,7 @@
 import os
-from distutils import setup
+from setuptools import setup
 
-version = "1.0.0.0"
+version = "1.0.1"
 
 current_directory = os.path.dirname(__file__)
 
@@ -14,8 +14,14 @@ except:
 
 setup(
     name="rust_rcon_lib",
-    version=version,
+    author='thegreatstorm',
+    url='https://github.com/thegreatstorm/rust_rcon_lib',
+    version="1.0.0.1",
     packages=["rust_rcon_lib", "rust_rcon_lib.utils"],
+    python_requires='>=3.6',
+    platforms=['Windows', 'Linux', 'OSX'],
+    description='Tried of trying to find working rust web rcon for python look no further.',
+    keywords='Rust web rcon interaction tool',
     include_package_data=True,
     install_requires=[
         "websocket-client >= 0.54.0"
