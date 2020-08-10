@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-version = "2.0.1"
+version = "2.0.2"
 
 current_directory = os.path.dirname(__file__)
 
