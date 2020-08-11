@@ -3,6 +3,7 @@ from setuptools import setup
 
 current_directory = os.path.dirname(__file__)
 
+version = "2.0.3.1"
 
 try:
     with open(os.path.join(current_directory, 'rev.txt')) as file:
@@ -14,7 +15,7 @@ setup(
     name="rust_webrcon",
     author='thegreatstorm',
     url='https://github.com/thegreatstorm/rust_webrcon',
-    version="2.0.3",
+    version=version,
     packages=["rust_webrcon"],
     python_requires='>=3.6',
     platforms=['Windows', 'Linux', 'OSX'],
