@@ -13,7 +13,7 @@ except:
 setup(
     name="rust_webrcon",
     author='thegreatstorm',
-    url='https://github.com/thegreatstorm/rust_rcon_lib',
+    url='https://github.com/thegreatstorm/rust_webrcon',
     version="2.0.3",
     packages=["rust_webrcon"],
     python_requires='>=3.6',
