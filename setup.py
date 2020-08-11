@@ -3,7 +3,7 @@ from setuptools import setup
 
 current_directory = os.path.dirname(__file__)
 
-version = "2.0.3.1"
+version = "3.0.0"
 
 try:
     with open(os.path.join(current_directory, 'rev.txt')) as file:
@@ -16,7 +16,7 @@ setup(
     author='thegreatstorm',
     url='https://github.com/thegreatstorm/rust_webrcon',
     version=version,
-    packages=["rust_webrcon"],
+    packages=["rust_webrcon", "rust_webrcon.utils"],
     python_requires='>=3.6',
     platforms=['Windows', 'Linux', 'OSX'],
     description='Tried of trying to find working rust web rcon for python look no further.',
