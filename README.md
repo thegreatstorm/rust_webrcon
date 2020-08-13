@@ -1,4 +1,5 @@
 # rust_webrcon Package
+Information can be found for libraries in rust_webrcon folder
 
 ## Install
 `pip install https://github.com/thegreatstorm/rust_webrcon/archive/master.zip`
@@ -18,20 +19,5 @@ Gather Base Information for server connection<br>
       server_info["rcon_password"] = ""
       server_info["enable_trace"] = False
 
-- - -
-##### <b>Connect Test:</b> server_info.get_server_info(server_info)
-Verify if you can receive server data.<br>
-<b>Arguments:</b>
-* `server_info` - an dictionary array to transfer information to the function.<br>
-<b>Return Value:</b>
-* `message <str_json>` - an json formated as a string given back from server connection. This will require a json.loads without index.
-
-- - -
-##### <b>Server Info:</b> server_info.get_players_list(server_info)
-Gets a list of players in string based.<br>
-<b>Arguments:</b>
-* `server_info` - an dictionary array to transfer information to the function.<br>
-<b>Return Value:</b>
-* `message <str_json>` - an json formated as a string given back from server connection. This will require a json.loads and a index list.
 
 # More Docs coming soon!
