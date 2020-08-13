@@ -13,8 +13,8 @@ def get_players_list(server_info):
     return response
 
 
-def banlist(server_info, steam_id, reason, duration):
-    command = 'global.ban {} {} {}'.format(steam_id, reason, duration)
+def banlist(server_info):
+    command = 'global.banlist'
     response = connect_rust_rcon(server_info, command)
     return response
 
